@@ -1,0 +1,36 @@
+.all-messages-body {
+  background-color: var(--white-color);
+  padding: 45px;
+  border-radius: 5px;
+  max-width: 850px;
+  margin: auto;
+}
+
+.all-messages-body .all-messages-header {
+  margin-bottom: 20px;
+}
+
+.all-messages-body .all-messages-header h3 {
+  font-size: var(--font-size);
+  margin-bottom: 0;
+}
+
+.all-messages-body .all-messages-header .dropdown button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--paragraph-color);
+  font-size: 22px;
+  line-height: 15px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.all-messages-body .all-messages-header .dropdown button::after {
+  display: none;
+}
+
+.all-messages-body .all-messages-header .dropdown button:hover {
+  color: var(--main-color);
+}
+/*# sourceMappingURL=Messages.css.map */

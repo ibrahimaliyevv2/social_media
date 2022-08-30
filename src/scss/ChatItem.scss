@@ -1,0 +1,44 @@
+.chat-item{
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+   position: relative;
+
+
+    a{
+        img{
+            width: 40px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+    }
+
+    span.name{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    
+    span.status-online{
+        position: absolute;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        left: 30px;
+        top: 1px;
+        background-color: #1DD217;
+        border: 1px solid #fff;
+    }
+
+    span.status-offline{
+        position: absolute;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        left: 30px;
+        top: 1px;
+        background-color: rgb(175, 164, 164);
+        border: 1px solid #fff;
+    }
+}

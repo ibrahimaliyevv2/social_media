@@ -1,0 +1,52 @@
+.Sidebar-main {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(250, 247, 242);
+    position: fixed;
+    margin-left: 0;
+
+    .SidebarList {
+        height: auto;
+        padding: 0;
+        width: 100%;
+
+        #active {
+            background-color: aqua;
+        }
+
+        .SidebarListItem {
+            width: 100%;
+            height: 50px;
+            list-style-type: none;
+            margin: 0%;
+            display: flex;
+            flex-direction: row;
+            color: black;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+            &:hover {
+                cursor: pointer;
+                background-color: aqua;
+            }
+
+            #icon {
+                flex: 30%;
+                border: 1px transparent solid;
+                text-align: center;
+                border-radius: 6px;
+                background-color: rgb(237, 244, 246);
+            }
+
+            #title {
+                flex: 70%;
+                margin-left: 4px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+
+        }
+    }
+}

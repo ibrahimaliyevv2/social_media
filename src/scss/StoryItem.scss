@@ -1,0 +1,29 @@
+.col-lg-2 {
+    .stories-item {
+        text-align: center;
+        margin-top: 25px;
+
+        a {
+            img {
+                border-radius: 5px;
+                width: 56px;
+            }
+        }
+
+        span {
+            display: block;
+            margin-top: 8px;
+            font-size: 14px;
+
+            a {
+                color: #6B7C8F;
+                text-decoration: none;
+                font-size: 12px;
+
+                &:hover {
+                    color: #3644D9;
+                }
+            }
+        }
+    }
+}

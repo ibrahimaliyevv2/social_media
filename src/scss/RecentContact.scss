@@ -1,0 +1,57 @@
+.recent-contact {
+    padding: 15px;
+    height: 475px;
+    background-color:  rgb(250, 247, 242);
+   
+
+    .title {
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    form {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+
+        input {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 0 0 0 15px;
+            box-shadow: none;
+            outline: 0;
+
+            &:focus::placeholder{
+                color: transparent;
+            }
+        }
+
+        button {
+            position: absolute;
+            right: 0;
+            top: 2px;
+            height: 40px;
+            background-color: transparent;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 0 15px;
+            color: black;
+
+        }
+    }
+
+    .contact-items {
+        max-height: 390px;
+        overflow-y: auto;
+    }
+}

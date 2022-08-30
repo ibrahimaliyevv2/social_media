@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,CAAC;CACX",
+    "sources": [
+        "../scss/SidebarRight.scss"
+    ],
+    "names": [],
+    "file": "SidebarRight.css"
+}

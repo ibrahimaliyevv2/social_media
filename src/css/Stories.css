@@ -1,0 +1,98 @@
+.news-feed-stories {
+  margin-bottom: 25px;
+}
+
+.news-feed-stories:last-child {
+  margin-bottom: 0;
+}
+
+.news-feed-stories .stories-title h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.news-feed-stories .stories-title span a {
+  color: #3644D9;
+  font-size: 14px;
+  border-bottom: 1px solid #3644D9;
+  text-decoration: none;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image {
+  position: relative;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #000000;
+  opacity: 0;
+  border-radius: 5px;
+  visibility: hidden;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image a img {
+  border-radius: 5px;
+  width: 56px;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image .add-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-top: 5px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image .add-icon i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image:hover::before {
+  opacity: .50;
+  visibility: visible;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item .stories-image:hover .add-icon {
+  margin-top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item span a {
+  color: #6B7C8F;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.news-feed-stories .row .col-lg-2 .stories-personal-item span a:hover {
+  color: #3644D9;
+}
+/*# sourceMappingURL=Stories.css.map */

@@ -1,0 +1,61 @@
+.notification-item {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.notification-item:last-child {
+  margin-bottom: 0;
+}
+
+.notification-item .figure {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.notification-item .figure .rounded-circle {
+  max-width: 70px;
+}
+
+.notification-item .text {
+  padding-left: 85px;
+}
+
+.notification-item .text h4 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.notification-item .text h4 a {
+  color: #000;
+}
+
+.notification-item .text h4 a:hover {
+  color: #3644D9;
+}
+
+.notification-item .text span {
+  color: #6B7C8F;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+.notification-item .text .main-color {
+  color: #3644D9;
+}
+
+.notification-item .icon a i {
+  font-size: 22px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.notification-item .icon a i:hover {
+  color: #3644D9;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=NotificationItem.css.map */

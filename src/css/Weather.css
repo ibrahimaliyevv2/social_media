@@ -1,0 +1,20 @@
+.weather img {
+  max-width: 100%;
+}
+
+.weather .city-name {
+  font-size: 18px;
+}
+
+.weather .feels-like {
+  font-size: 18px;
+}
+
+.weather .humidity {
+  font-size: 18px;
+}
+
+.weather .wind-speed {
+  font-size: 18px;
+}
+/*# sourceMappingURL=Weather.css.map */

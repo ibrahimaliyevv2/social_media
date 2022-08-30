@@ -1,0 +1,67 @@
+.widget-watch-video {
+    margin-bottom: 25px;
+    background-color: var(--white-color);
+    -webkit-box-shadow: 0 8px 10px 0 rgba(183, 192, 206, 0.1);
+    box-shadow: 0 8px 10px 0 rgba(183, 192, 206, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .video-item {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-color: #000000;
+            opacity: 0;
+            border-radius: 5px;
+            visibility: hidden;
+            -webkit-transition: var(--transition);
+            transition: var(--transition);
+        }
+
+        img {
+            border-radius: 5px;
+            display: inline-block !important;
+            width: 100% !important;
+        }
+
+        .video-btn {
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            i {
+                font-size: 20px;
+                color: var(--white-color);
+                -webkit-transition: var(--transition);
+                transition: var(--transition);
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        &:hover::before {
+            opacity: .50;
+            visibility: visible;
+        }
+
+        &:hover i {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

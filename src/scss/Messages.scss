@@ -1,0 +1,46 @@
+.all-messages-body {
+    background-color: var(--white-color);
+    padding: 45px;
+    border-radius: 5px;s
+    max-width: 850px;
+    margin: auto;
+
+    .all-messages-header {
+        margin-bottom: 20px;
+
+        h3 {
+            font-size: var(--font-size);
+            margin-bottom: 0;
+        }
+
+        .dropdown {
+            button {
+                padding: 0;
+                border: none;
+                background-color: transparent;
+                color: var(--paragraph-color);
+                font-size: 22px;
+                line-height: 15px;
+                -webkit-transition: var(--transition);
+                transition: var(--transition);
+
+                &::after{
+                    display: none;
+                }
+
+                &:hover{
+                    color: var(--main-color);
+                }
+                i {}
+            }
+
+            ul {
+                li {
+                    a {
+                        i {}
+                    }
+                }
+            }
+        }
+    }
+}
