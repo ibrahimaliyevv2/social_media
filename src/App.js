@@ -26,7 +26,7 @@ function App() {
           }
         />
         <Route
-          path="/notifications"
+          path="/social_media/notifications"
           element={
             <AuthProvider>
               <Notifications />
@@ -34,7 +34,7 @@ function App() {
           }
         />
         <Route
-          path="/friends"
+          path="/social_media/friends"
           element={
             <AuthProvider>
               <Friends />
@@ -42,7 +42,7 @@ function App() {
           }
         />
         <Route
-          path="/weather"
+          path="/social_media/weather"
           element={
             <AuthProvider>
               <Weather />
@@ -50,7 +50,7 @@ function App() {
           }
         />
         <Route
-          path="/messages"
+          path="/social_media/messages"
           element={
             <AuthProvider>
               <Messages />
@@ -58,7 +58,7 @@ function App() {
           }
         />
         <Route
-          path="/my-profile"
+          path="/social_media/my-profile"
           element={
             <AuthProvider>
               <Profile />
@@ -67,7 +67,7 @@ function App() {
         />
         <Route path="*" element={<NotFound />} />
         <Route
-          path="/login"
+          path="/social_media/login"
           element={
             <NoAuthProvider>
               <Login />
@@ -75,7 +75,7 @@ function App() {
           }
         />
         <Route
-          path="/register"
+          path="/social_media/register"
           element={
             <NoAuthProvider>
               <Register />
@@ -83,7 +83,7 @@ function App() {
           }
         />
         <Route
-          path="/forgot"
+          path="/social_media/forgot"
           element={
             <NoAuthProvider>
               <Forgot />
