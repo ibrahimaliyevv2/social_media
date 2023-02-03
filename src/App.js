@@ -18,7 +18,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route
-          path="/"
+          path="/social_media"
           element={
             <AuthProvider>
               <Home />
