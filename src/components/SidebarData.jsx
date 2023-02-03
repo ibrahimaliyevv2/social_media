@@ -12,36 +12,36 @@ export const SidebarData = [
   {
     title: "News Feed",
     icon: <NewspaperOutlinedIcon />,
-    link: "/",
+    link: "/social_media",
   },
   {
     title: "Notifications",
     icon: <NotificationsActiveOutlinedIcon />,
-    link: "/notifications",
+    link: "/social_media/notifications",
   },
   {
     title: "Messages",
     icon: <ForumOutlinedIcon />,
-    link: "/messages",
+    link: "/social_media/messages",
   },
   {
     title: "Friends",
     icon: <GroupOutlinedIcon />,
-    link: "/friends",
+    link: "/social_media/friends",
   },
   {
     title: "Weather",
     icon: <WbSunnyOutlinedIcon />,
-    link: "/weather",
+    link: "/social_media/weather",
   },
   {
     title: "Login",
     icon: <PersonOutlineOutlinedIcon />,
-    link: "/login",
+    link: "/social_media/login",
   },
   {
     title: "Register",
     icon: <AppRegistrationOutlinedIcon />,
-    link: "/register",
+    link: "/social_media/register",
   },
 ];
