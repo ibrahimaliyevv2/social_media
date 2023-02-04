@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="app">
       <HashRouter basename='/social_media'>
-        <Route
-          path="/social_media"
+        <Route exact
+          path="/"
           element={
             <AuthProvider>
               <Home />
@@ -26,7 +26,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/notifications"
+          path="/notifications"
           element={
             <AuthProvider>
               <Notifications />
@@ -34,7 +34,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/friends"
+          path="/friends"
           element={
             <AuthProvider>
               <Friends />
@@ -42,7 +42,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/weather"
+          path="/weather"
           element={
             <AuthProvider>
               <Weather />
@@ -50,7 +50,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/messages"
+          path="/messages"
           element={
             <AuthProvider>
               <Messages />
@@ -58,7 +58,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/my-profile"
+          path="/my-profile"
           element={
             <AuthProvider>
               <Profile />
@@ -67,7 +67,7 @@ function App() {
         />
         <Route path="*" element={<NotFound />} />
         <Route
-          path="/social_media/login"
+          path="/login"
           element={
             <NoAuthProvider>
               <Login />
@@ -75,7 +75,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/register"
+          path="/register"
           element={
             <NoAuthProvider>
               <Register />
@@ -83,7 +83,7 @@ function App() {
           }
         />
         <Route
-          path="/social_media/forgot"
+          path="/forgot"
           element={
             <NoAuthProvider>
               <Forgot />
