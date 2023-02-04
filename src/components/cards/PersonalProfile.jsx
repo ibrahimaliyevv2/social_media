@@ -11,12 +11,12 @@ function PersonalProfile() {
   return (
     <div className="widget-view-profile mt-3">
       <div className="profile-box d-flex justify-content-between align-items-center">
-        <a href="my-profile">
+        <a href="/social_media/my-profile">
           <img src={Pt1} alt="image" />
         </a>
         <div className="text ms-2">
           <h3>
-            <a href="my-profile">Fazail Jabbarov</a>
+            <a href="/social_media/my-profile">Fazail Jabbarov</a>
           </h3>
           <span>Sumgait, Azerbaijan</span>
         </div>
@@ -80,7 +80,7 @@ function PersonalProfile() {
         </ul>
       </div>
       <div className="profile-btn">
-        <a href="my-profile" className="default-btn">
+        <a href="/social_media/my-profile" className="default-btn">
           View Profile
         </a>
       </div>

@@ -34,7 +34,7 @@ class Header extends Component {
         >
           <NavbarBrand
             className='my-brand-nav'
-            href="/">
+            href="/social_media">
             <img src={Logo} alt="" />
             Chaos
           </NavbarBrand>
@@ -52,7 +52,7 @@ class Header extends Component {
             >
 
               <NavItem className='navitem-main'>
-                <NavLink className='navlink-main' href="/">
+                <NavLink className='navlink-main' href="/social_media">
                   <i className="fa-solid fa-house"></i>
                   <NavbarText className='navtext-sp'>HOME</NavbarText>
                 </NavLink>
@@ -61,7 +61,7 @@ class Header extends Component {
                 <Dropdown className='dropdown friend-requests-nav-item'>
 
                 </Dropdown>
-                <NavLink href="/" className='navlink-main dropdown-bs-toggle' role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <NavLink href="/social_media" className='navlink-main dropdown-bs-toggle' role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i className="fa-solid fa-user-large"></i>
                   <NavbarText className='navtext-sp'>FOLLOWERS</NavbarText>
                   <DropdownMenu className='dropdown-menu'>
@@ -83,7 +83,7 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem className='navitem-main special-navitem'>
-                <NavLink className='navlink-main' href="/">
+                <NavLink className='navlink-main' href="/social_media">
                   <i className="fa-solid fa-globe"></i>
                   <NavbarText className='navtext-sp'>LANGUAGE</NavbarText>
                 </NavLink>
