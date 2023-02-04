@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import "./css/App.css";
 import Notifications from "./pages/Notifications";
 import NotFound from "./pages/NotFound";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import AuthProvider from "./providers/AuthProvider";
 import NoAuthProvider from "./providers/NoAuthProvider";
@@ -16,7 +16,7 @@ import Friends from "./pages/Friends";
 function App() {
   return (
     <div className="app">
-      <Routes>
+      <HashRouter basename='/social_media'>
         <Route
           path="/social_media"
           element={
@@ -90,7 +90,7 @@ function App() {
             </NoAuthProvider>
           }
         />
-      </Routes>
+      </HashRouter>
     </div>
   );
 }
