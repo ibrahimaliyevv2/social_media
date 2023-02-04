@@ -16,7 +16,7 @@ import Friends from "./pages/Friends";
 function App() {
   return (
     <div className="app">
-      <Routes history={useNavigate}>
+      <Routes>
         <Route
           path="/social_media"
           element={
